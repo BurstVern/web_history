@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.teal{
+    background-color: green;
+    color: black;
+
+}
+
+.tomato{
+    background-color: orangered;
+    color: white;
+}
+
+#poster{
+    width: 200px;
+    height: 150px;
+    background-color: thistle;
+}
+
+#card{
+    width: 230px;
+    height: 300px;
+    padding: 10px;
+    background-color: wheat;
+    margin: 350px 800px;
+}
+
+.btn{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+}

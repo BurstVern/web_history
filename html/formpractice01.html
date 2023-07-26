@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 실습</title>
+</head>
+<body>
+    <h1>회원가입 페이지</h1>
+    <hr />
+    <form>
+        <label for="userid">아이디</label>
+        <input type="text" id="userid" placeholder="아이디 입력" autofocus/>
+        <button type="submit"> 아이디 확인</button> <br />
+
+        <label for="userPw">비밀번호</label>
+        <input type="password" id="userPw" placeholder="비밀번호 입력" required/> <br />
+        
+        <label for="checkpw">비밀번호 확인</label>
+        <input type="password" id="checkpw" placeholder="비밀번호 확인" required/>
+        <button type="submit">비밀번호 확인</button> <br />
+
+        <hr />
+
+        <label for="name">이름</label>
+        <input type="text" id="name" value="홍길동" /> <br />
+
+        <label for="birth">생년월일</label>
+        <input type="date"> <br />
+
+        <label for="graduate">졸업 예정일</label>
+        <select>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+        </select>
+        년
+        <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select>
+        월
+        <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select>
+        일 <br />
+        <label for="eyes">눈알 갯수</label>
+        <select name="select" disabled="true">
+            <option>2</option>
+        </select>
+        개
+        
+        <hr />
+
+        성별 <br />
+        성별
+        <input type="radio" id="man"/>
+        <label for="man">남자</label>
+
+        <input type="radio" id="girl"/>
+        <label for="girl">여자</label>
+
+        <input type="radio" id="etc" checked/>
+        <label for="etc">기타</label>
+        <br />
+        단과대학
+        <input type="checkbox" id="comm">
+        <label for="comm">정통대</label>
+
+        <input type="checkbox" id="natural">
+        <label for="natural">자과대</label>
+
+        <input type="checkbox" id="tech">
+        <label for="tech">공대</label>
+
+        <input type="checkbox" id="hum">
+        <label for="hum">인문대</label>
+
+        <input type="checkbox" id="social">
+        <label for="social">사과대</label>
+
+        <input type="checkbox" id="medi">
+        <label for="medi">의대</label>
+
+        <input type="checkbox" id="pharm">
+        <label for="pharm">약대</label>
+
+        <input type="checkbox" id="nurse">
+        <label for="nurse">간호대</label>
+
+        <input type="checkbox" id="economic">
+        <label for="economic">경영대</label>
+        
+        <hr />
+
+        <label for="eamil01">이메일</label>
+        <input type="text" id="email01" placeholder="이메일 입력"> 
+        <label for="site">@</label>
+        <input type="text" id="site" placehoder="naver.com">
+        <select>
+            <option>네이버</option>
+        </select>
+        <br />
+
+        <label for="email02">이메일2</label>
+        <input type="email" id="email02">
+
+        <hr />
+
+        <label for="tel"><b>전화 번호</b></label>
+        <input type="tel" id="tel" placeholder="010-0000-0000">
+        <button type="submit">인증번호 받기</button>
+        <br />
+
+        <label for="guarantee"><b>인증 번호</b></label>
+        <input type="text" id="guarantee" placeholder="인증 번호 입력">
+        <button type="submit">확인</button>
+
+        <hr />
+
+        <b>관심사</b>
+        <input type="checkbox" id="it">
+        <label for="it">IT</label>
+        
+        <input type="checkbox" id="secu">
+        <label for="secu">보안</label>
+
+        <input type="checkbox" id="web">
+        <label for="web">웹</label>
+
+        <input type="checkbox" id="server">
+        <label for="server">서버</label>
+        <br />
+
+        <b>본인 사진</b><button type="submit">파일 선택</button> 선택된 파일 없음 <br />
+        <label for="memo"></label>
+        <textarea id="memo" cols="100" row="100" placeholder="자기 소개"></textarea>
+        <br />
+        <label for="rank"></label>
+        <textarea id="rank" cols="100" row="4">해당 페이지에서 누락된 내용은 없는 지 확인해주세요. 감사합니다.</textarea>
+        <br />
+        <label for="rate">오늘 수업 이해도</label>
+        <input type="range" id="rate">
+        <br />
+        <button type="sumbit">제출하기</button>
+    </form>
+</body>
+</html>

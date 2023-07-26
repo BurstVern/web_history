@@ -1,0 +1,15 @@
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+
+caption{
+    font-weight: bold;
+    color: green;
+    font-size: 30px
+}
+#holiday{
+    color: red
+}
