@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-weight: 700;
+}
+.container{
+    width: 1200px;
+    height: 640px;
+    margin: 100px auto;
+}
+.div{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+.div:nth-child(odd){
+    background-color: white;
+}
+.div:nth-child(even){
+    background-color: #ddd;
+}
+
+.div2{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+}
+
+.div2 > .MENU{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.div4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.div4 > .menues{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+
+}
+
+.div6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.div6 > .logomenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 35%;
+}
+
+.div6 > .loginsignup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 17%
+}
+.div8{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div8 > .last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lastmenu{
+    padding: 10px;
+}
